@@ -49,17 +49,17 @@ Here are some of the most common grep commands used in the Unix/Linux command li
 
 ### File Names with Matches:
 
-grep -l 'pattern' file1 file2
+```grep -l 'pattern' file1 file2```
 
 
 ### Exclude Certain Files:
 
-grep --exclude=*.log 'pattern' /path/to/directory/*
+```grep --exclude=*.log 'pattern' /path/to/directory/*```
 
 
 ### Use Extended Regular Expressions:
 
-grep -E 'pattern' file
+```grep -E 'pattern' file```
 
 
 ### Suppress Errors for Non-Existent or Unreadable Files:
@@ -86,5 +86,5 @@ Before matches:
 
 ### Only ow File Names (No Duplicate Names):
 
-grep -L 'pattern' file1 file2
+```grep -L 'pattern' file1 file2```
 
