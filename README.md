@@ -84,7 +84,7 @@ Before matches:
 ```grep -C n 'pattern' file```
 
 
-### Only ow File Names (No Duplicate Names):
+### Only File Names (No Duplicate Names):
 
 ```grep -L 'pattern' file1 file2```
 
